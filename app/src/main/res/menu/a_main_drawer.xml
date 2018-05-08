@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_appwidget"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Appwidget" />
+        <item
+            android:id="@+id/nav_edittext"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="EditText" />
+        <item
+            android:id="@+id/nav_recyclerview"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="RecyclerView" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Temp1" />
+    </group>
+
+    <item android:title="ETC">
+        <menu>
+            <item
+                android:id="@+id/nav_1"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="ETC1" />
+            <item
+                android:id="@+id/nav_2"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="ETC2" />
+        </menu>
+    </item>
+
+    <item android:title="Debug Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_debug"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Debug" />
+        </menu>
+    </item>
+
+</menu>
