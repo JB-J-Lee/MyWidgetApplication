@@ -56,6 +56,14 @@
                 android:value="com.myjb.dev.activity.MainActivity" />
         </activity>
         <activity
+            android:name=".datadinding.DatabindingActivity"
+            android:parentActivityName="com.myjb.dev.activity.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myjb.dev.activity.MainActivity" />
+        </activity>
+        <activity
             android:name=".debug.DebugActivity"
             android:parentActivityName="com.myjb.dev.activity.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->

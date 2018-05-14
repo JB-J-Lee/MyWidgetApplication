@@ -16,6 +16,7 @@ import android.view.View;
 
 import com.myjb.dev.R;
 import com.myjb.dev.appwidget.AppWidgetActivity;
+import com.myjb.dev.datadinding.DatabindingActivity;
 import com.myjb.dev.edittext.EditextActivity;
 import com.myjb.dev.debug.DebugActivity;
 import com.myjb.dev.recyclerView.RecyclerViewActivity;
@@ -92,8 +93,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(this, EditextActivity.class));
         } else if (id == R.id.nav_recyclerview) {
             startActivity(new Intent(this, RecyclerViewActivity.class));
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.nav_databinding) {
+            startActivity(new Intent(this, DatabindingActivity.class));
         } else if (id == R.id.nav_debug) {
             startActivity(new Intent(this, DebugActivity.class));
         }
